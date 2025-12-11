@@ -14,6 +14,10 @@ def create_app() -> Flask:
     return app
 
 
+
+
+
+
 class Simulation:
     def __init__(self) -> None:
         self.app = create_app()
