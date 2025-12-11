@@ -102,6 +102,7 @@ Note: Minor improvements will be added soon.
 - Improved UI smoothness.
 - Added support for additional frontend animations.
 - Plan to add advanced memory optimization techniques.
+### Additional Notes
 
 
 ## Key Features & Components
