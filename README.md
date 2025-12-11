@@ -101,6 +101,7 @@ Frontend dev server runs on `http://localhost:5173` (or next available port)
 Note: Minor improvements will be added soon.
 - Improved UI smoothness.
 - Added support for additional frontend animations.
+- Plan to add advanced memory optimization techniques.
 
 
 ## Key Features & Components
