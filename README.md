@@ -98,6 +98,9 @@ Frontend dev server runs on `http://localhost:5173` (or next available port)
 
 **Note:** Start the backend server first, then the frontend. The frontend will automatically connect to the backend API.
 
+Note: Minor improvements will be added soon.
+
+
 ## Key Features & Components
 
 ### Backend Components
