@@ -1,0 +1,52 @@
+@import url("https://unpkg.com/modern-css-reset/dist/reset.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f7;
+  --text-primary: #1d1d1f;
+  --text-secondary: #636366;
+  --border: rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --border: rgba(255, 255, 255, 0.1);
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 20% 20%, #eef2ff, #f8fafc),
+    radial-gradient(circle at 80% 0%, #e0f2fe, #f8fafc);
+  min-height: 100vh;
+}
+
+.dark body {
+  background: radial-gradient(circle at 0% 10%, #0f172a, #0b1224),
+    radial-gradient(circle at 90% 10%, #0f172a, #0b1224);
+}
+
+.glass {
+  @apply bg-ios-surface dark:bg-ios-dark-surface backdrop-blur-2xl border border-ios-border dark:border-slate-700 shadow-glass rounded-3xl;
+}
+
+.card {
+  @apply glass p-6;
+}
+
+.pill {
+  @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm font-medium shadow;
+}
+
