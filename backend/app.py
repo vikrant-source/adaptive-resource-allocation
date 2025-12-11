@@ -17,9 +17,6 @@ def create_app() -> Flask:
 
 
 
-
-
-
 class Simulation:
     def __init__(self) -> None:
         self.app = create_app()

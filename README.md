@@ -103,6 +103,7 @@ Note: Minor improvements will be added soon.
 - Added support for additional frontend animations.
 - Plan to add advanced memory optimization techniques.
 ### Additional Notes
+This simulator is designed for educational OS concepts.
 
 
 ## Key Features & Components
